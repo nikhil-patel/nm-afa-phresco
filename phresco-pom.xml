@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.photon.phresco</groupId>
+    <artifactId>associateapp</artifactId>
+    <packaging>phresco</packaging>
+    <name>associateapp</name>
+    <version>1.0.0-SNAPSHOT</version>
+    <scm>
+        <connection>https://github.com/nikhil-patel/nm-afa-phresco.git</connection>
+        <developerConnection>scm:git:https://github.com/nikhil-patel/nm-afa-phresco.git</developerConnection>
+        <url>scm:git:https://github.com/nikhil-patel/nm-afa-phresco.git</url>
+    </scm>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.photon.phresco.plugins</groupId>
+                <artifactId>phresco-maven-plugin</artifactId>
+                <version>3.3.1.16001</version>
+                <extensions>true</extensions>
+            </plugin>
+        </plugins>
+    </build>
+   <properties>
+        <phresco.src.root.dir xmlns="">../associateapp/</phresco.src.root.dir>
+        <phresco.src.repo.url xmlns="">https://vsap8@stash.mynmg.com/scm/afa/associateapp.git</phresco.src.repo.url>
+        <phresco.split.src.dir xmlns="">associateapp</phresco.split.src.dir>
+        <phresco.split.phresco.dir xmlns="">associateapp-phresco</phresco.split.phresco.dir>
+        <phresco.dotphresco.repo.url xmlns="">https://github.com/nikhil-patel/nm-afa-phresco.git</phresco.dotphresco.repo.url>
+        <phresco.tfs.src.workspace.name xmlns="">associateapp1eb4be73-f32e-48d1-bf8d-5e5013800c9f</phresco.tfs.src.workspace.name>
+        <phresco.tfs.phr.workspace.name xmlns="">associateapp-phrescoa94d5430-fb0d-4385-8f5a-bdaaeb27003c</phresco.tfs.phr.workspace.name>
+        <source.pom>pom.xml</source.pom>
+    </properties>
+</project>
